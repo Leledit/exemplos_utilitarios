@@ -1,0 +1,22 @@
+@import "/public/styles/palette/index.module.scss";
+.mainContainer {
+  margin-bottom: 10px;
+  width: 100%;
+  .containerSwitch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    .label {
+      font-size: 16px;
+      color: $textDark;
+    }
+  }
+  .msgErro {
+    color: $danger;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,27 @@
+@import "/public/styles/palette/index.module.scss";
+
+.containerTextArea {
+  width: 100%;
+  .label{
+    font-size: 14px;
+    margin-left: 10px;
+    color: rgba(0,0,0,0.8);
+  }
+  .textArea {
+    margin-top: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid $borderDark;
+    border-radius: 5px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 80px;
+    max-height: 80px;
+    padding: 5px;
+  }
+  .msgErro {
+    color:$danger;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}

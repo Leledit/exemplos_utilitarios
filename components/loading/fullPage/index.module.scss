@@ -1,0 +1,31 @@
+.containerLoading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #dfdfdf;
+  z-index: 10000;
+  top: 0;
+  .loader {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    .circle {
+      animation: is-rotating 1s infinite;
+      border: 6px solid #e5e5e5;
+      border-radius: 50%;
+      border-top-color: #2331ff;
+      height: 150px;
+      width: 150px;
+    }
+  }
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}

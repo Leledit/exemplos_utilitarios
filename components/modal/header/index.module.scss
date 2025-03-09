@@ -1,0 +1,47 @@
+@import "/public/styles/palette/index.module.scss";
+
+.containerHeader {
+  margin-top: 7px;
+
+  .internalSpace {
+    margin-bottom: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .titleAndIcon {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      .title {
+        color: $text;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 25px;
+        margin-left: 5px;
+        color: $textDark;
+      }
+
+      .icon {
+        color: $iconDark;
+        width: 15px;
+        height: 15px;
+        margin-left: 2px;
+      }
+    }
+
+    .headerIcon {
+      color: $iconDark;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}

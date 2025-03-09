@@ -1,0 +1,16 @@
+@import "/public/styles/palette/index.module.scss";
+
+.containerModal{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  .containerForm {
+    margin-top: 25px;
+    .messageError {
+      font-size: 12px;
+      color: $danger;
+    }
+  }
+}
+

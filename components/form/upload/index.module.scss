@@ -1,0 +1,19 @@
+.containerImage {
+  .image {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    .lineField {
+      margin-bottom: 20px;
+    }
+    .chosenImage {
+      width: auto;
+      height: auto;
+      flex-wrap: nowrap;
+      max-width: 600px;
+      margin-top: 20px;
+    }
+  }
+}

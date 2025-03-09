@@ -1,0 +1,16 @@
+@import "/public/styles/palette/index.module.scss";
+.containerModal{
+  width: 90%;
+  margin-left: 5%;
+  .containerMensagem {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    .message {
+      font-size: 14px;
+      color: $textDark;
+      line-height: 20px;
+    }
+  }
+}
+

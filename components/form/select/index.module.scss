@@ -1,0 +1,11 @@
+@import "/public/styles/palette/index.module.scss";
+.containerSelect{
+    width: 100%;
+    min-height: 85px;
+    .msgErro {
+        color: $danger;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+}

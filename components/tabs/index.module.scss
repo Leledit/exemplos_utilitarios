@@ -1,0 +1,9 @@
+@import "/public/styles/palette/index.module.scss";
+.containerPage {
+    background: $secondary;
+    min-height: 500px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid rgba(134, 134, 134, 0.5);
+    border-top: none;
+}
